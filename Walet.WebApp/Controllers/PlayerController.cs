@@ -21,7 +21,6 @@
 			_logger = logger;
 		}
 
-
 		[HttpPut]
 		public Task<string> RegisterPlayer([Required] string username) => 
 			_api.RegisterPlayerAsync(username);
